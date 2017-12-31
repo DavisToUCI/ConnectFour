@@ -32,6 +32,7 @@ public class GUI extends Application implements EventHandler<ActionEvent>{
 	public void run(Stage stage) {
 		window = stage;
 		window.setTitle("Connect Four");
+		window.setResizable(false);
 
 		BorderPane root = new BorderPane();		
 		root.setTop(createButtons());
